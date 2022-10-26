@@ -11,7 +11,7 @@ public:
     bool alive = true;
     int potentialDmg;
     int critChance;
-    void introMsg(){
+    virtual void introMsg(){
         cout << "Welcome" << "\n";
     }
     bool calcCrit(int t_critChance){
